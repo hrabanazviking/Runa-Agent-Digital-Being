@@ -75,6 +75,31 @@ Each doc follows a seven-section template: Core idea, Technical depth, Key works
 - `docs/decisions/0003-research-corpus-2026-05-17.md` — formal ADR on the corpus
 - `docs/REPO_MAP.md` — adds `docs/research/` and `docs/AI_OS_Research/` to the top-level map
 
+### 2026-05-17 (night) — Python Craft Corpus: 50 implementation documents
+
+Following the AI/CS research corpus (ADR-0003), Volmarr requested a parallel 50-document corpus on the Python craft to actually build robust, self-healing, crash-proof software. Written autonomously across 12 commits (P0 + B1-B10 + closing).
+
+**Eight categories:**
+- Robustness Fundamentals (10 docs)
+- Self-Healing & Supervision (8 docs)
+- Concurrency Mastery (6 docs)
+- Type Safety & Validation (5 docs)
+- Testing (6 docs)
+- Performance (5 docs)
+- Architecture Patterns (5 docs)
+- Observability & Operations (5 docs)
+
+Each doc follows the same seven-section template as `docs/research/`. Real Python code examples; real PEP / library citations; pitfalls and Runa-specific applicability for each.
+
+The two corpora together (100 documents) form Runa's technical reference library:
+- `docs/research/` — Architect's reading (concepts).
+- `docs/python/` — Forge Worker's reading (implementation).
+
+**Closing artifacts** (this commit):
+- `docs/python/INDEX.md` — all 50 entries updated with commit hashes
+- `docs/decisions/0004-python-craft-corpus-2026-05-17.md` — formal ADR
+- `docs/REPO_MAP.md` — adds `docs/python/` (plus Volmarr's RunaUniversity2040)
+
 ### Bootstrap complete
 
 All 12 phases shipped. The repository now stands as a clean Mythic Engineering Sacred Setup: vision, philosophy, methodology, architecture, ownership, data flow, attribution, repo map, and a Python package skeleton ready for the first slice.
