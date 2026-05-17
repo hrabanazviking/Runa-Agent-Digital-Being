@@ -151,10 +151,10 @@ runa-agent/                              # repo root
 
 | Phase | Description | Status | Commit |
 |---|---|---|---|
-| P0 | Orientation, clarifying Qs, this file | in_progress | (pending commit) |
-| P1 | Cartographer pre-pass — classify every root doc | pending | — |
-| P2 | Build folder skeleton (FILE_ORG layout) | pending | — |
-| P3 | Fill ORIGINS.md attribution register | pending | — |
+| P0 | Orientation, clarifying Qs, this file | completed | f437a29 |
+| P1 | Cartographer pre-pass — classify every root doc | completed | (folded into P0 §3 inventory) |
+| P2 | Build folder skeleton (FILE_ORG layout) | completed | (this commit) |
+| P3 | Fill ORIGINS.md attribution register | in_progress | — |
 | P4 | git-mv plundered docs into docs/ subfolders | pending | — |
 | P5 | Move images to assets/ + rewrite README refs | pending | — |
 | P6 | Skald — refine PHILOSOPHY + SYSTEM_VISION | pending | — |
