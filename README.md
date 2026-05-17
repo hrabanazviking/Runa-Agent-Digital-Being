@@ -11,6 +11,10 @@
 
 ---
 
+![https://raw.githubusercontent.com/hrabanazviking/Runa-Agent-Digital-Being/refs/heads/main/11e7f20c-48a7-48bc-aa6a-e291e3b1da56.jpg](https://raw.githubusercontent.com/hrabanazviking/Runa-Agent-Digital-Being/refs/heads/main/11e7f20c-48a7-48bc-aa6a-e291e3b1da56.jpg)
+
+---
+
 ## 0. Core Vision
 
 Runa is not a chatbot.
@@ -110,6 +114,10 @@ For every phase:
 
 ---
 
+![https://raw.githubusercontent.com/hrabanazviking/Runa-Agent-Digital-Being/refs/heads/main/057d8120-f956-4e5d-851d-1b419ea1edc1.jpg](https://raw.githubusercontent.com/hrabanazviking/Runa-Agent-Digital-Being/refs/heads/main/057d8120-f956-4e5d-851d-1b419ea1edc1.jpg)
+
+---
+
 ## 3. High-Level Architecture
 
 ```mermaid
@@ -153,6 +161,10 @@ flowchart TD
 	E --> CH[Chat Bridges]
 	E --> VC[Voice System]
 ```
+
+---
+
+![https://raw.githubusercontent.com/hrabanazviking/Runa-Agent-Digital-Being/refs/heads/main/2d1bd1cd-ad95-4a54-8a7f-3575718573be.jpg](https://raw.githubusercontent.com/hrabanazviking/Runa-Agent-Digital-Being/refs/heads/main/2d1bd1cd-ad95-4a54-8a7f-3575718573be.jpg)
 
 ---
 
@@ -246,6 +258,10 @@ runa-longhall/
 	runa-worker.service
 	runa-voice.service
 ```
+
+---
+
+![https://raw.githubusercontent.com/hrabanazviking/Runa-Agent-Digital-Being/refs/heads/main/5b9f7f69-f398-4c54-9086-b4b1fd8e8166.jpg](https://raw.githubusercontent.com/hrabanazviking/Runa-Agent-Digital-Being/refs/heads/main/5b9f7f69-f398-4c54-9086-b4b1fd8e8166.jpg)
 
 ---
 
