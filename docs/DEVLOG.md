@@ -28,6 +28,15 @@ The DEVLOG is read at the start of every session. It is the Cartographer's first
 - **P11** — Top-level scaffolding. `pyproject.toml` (hatchling build, Python ≥3.11, ruff + mypy + pytest config, `runa = "runa.cli.main:main"` entry point, optional-deps groups planned per adapter), `.python-version` (3.11), `.env.example` (commented placeholders, no real values, redaction patterns documented), `.gitignore` (Python + ~/.runa/ + IDE + secrets), `config/runa.example.yaml` (cautious defaults, identity / policy / memory / tasks / world / emotions / models / surfaces / adapters / plugins / repair / logging sections). Empty `config.yaml` git-mv'd into the new template slot. Plus `src/runa/__init__.py` + `src/runa/__main__.py` + 10 subpackage `__init__.py` stubs so the package imports cleanly. *(commit `5c6ccdb`)*
 - **P12** — Auditor pass. 12 structural audits all green: every directory has README, every src/runa/* has INTERFACE.md + __init__.py, no absolute github URLs remain, no images at root, all README navigation links resolve, all spot-checked ORIGINS file refs resolve, REPO_MAP top-level dirs exactly match reality, git tree clean. Closing report committed as `docs/decisions/0001-mythic-engineering-bootstrap-2026-05-17.md`. *(this commit)*
 
+### 2026-05-17 (later, same day) — Post-bootstrap ratifications
+
+Two of the deferred items in ADR-0001 were resolved by Volmarr immediately after the closing report:
+
+- **Skald-given True Names ratified.** Eldhugi, Heimskringla, Rödd, Auga, Munnr are now binding alongside the inherited names. `docs/SYSTEM_VISION.md` §4 and `docs/decisions/0001-mythic-engineering-bootstrap-2026-05-17.md` §D-1.6.1 carry the ratification.
+- **Duplicate design drafts clarified.** `Runa-Agent-Digital-Being.md` and `Runa_Agent_Digital_Being.md` are different documents written by different AI models with intentionally similar names — not duplicates. They stand side by side. `ORIGINS.md` §5 entry crossed out with the resolution. ADR §D-1.6.2 records the rule "must not be reconciled or merged".
+
+The remaining seven deferred decisions in ADR-0001 §"What this ADR does not decide" are being asked of Volmarr one at a time, with the answers landing as their own per-slice ADRs when implementation reaches them.
+
 ### Bootstrap complete
 
 All 12 phases shipped. The repository now stands as a clean Mythic Engineering Sacred Setup: vision, philosophy, methodology, architecture, ownership, data flow, attribution, repo map, and a Python package skeleton ready for the first slice.

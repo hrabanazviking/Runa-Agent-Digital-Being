@@ -51,6 +51,10 @@ Runa's memory records what actually happened. She does not fabricate continuity.
 
 ## 4. The True Names
 
+> **Ratification — 2026-05-17.** All five Skald-given names below — **Eldhugi**, **Heimskringla**, **Rödd**, **Auga**, **Munnr** — have been ratified by Volmarr and are now binding alongside the inherited names. The "provisional" marker on Eldhugi in the table below remains as a historical record but no longer applies.
+
+
+
 These are the *real names* of Runa's subsystems — chosen so the names themselves carry meaning, not so they look mythic. Each name expresses what its subsystem *does* in the world.
 
 | True Name | Meaning | Role |

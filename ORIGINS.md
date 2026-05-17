@@ -140,7 +140,7 @@ All directories below were created in commit `22cd6c5` (P1+P2). Origin is *boots
 
 ## 5. Open uncertainties — flagged for future review
 
-1. **`Runa-Agent-Digital-Being.md` vs `Runa_Agent_Digital_Being.md`** (kebab vs snake case). Both were added within 3 minutes of each other on 2026-05-17, both are large (48 KB / 65 KB), both look like canonical agent design drafts. They may be near-duplicates, alternate drafts, or genuinely complementary. **Action:** diff and reconcile in a later session before either is treated as authoritative.
+1. ~~**`Runa-Agent-Digital-Being.md` vs `Runa_Agent_Digital_Being.md`** (kebab vs snake case). Both were added within 3 minutes of each other on 2026-05-17, both are large (48 KB / 65 KB), both look like canonical agent design drafts. They may be near-duplicates, alternate drafts, or genuinely complementary. **Action:** diff and reconcile in a later session before either is treated as authoritative.~~ **Resolved 2026-05-17 by Volmarr:** the two files are *different documents written by different AI models with intentionally similar names*. They are not duplicates and must not be reconciled or merged. They stand side by side in `docs/architecture/` as parallel design articulations.
 
 2. **`MIT_license_Rune_Forge_AI.jpeg` provenance**. The "Rune Forge AI" project is not currently in Runa's local project memory. Likely an earlier or sibling Volmarr project; confirm with Volmarr what it is and whether the image should stay.
 

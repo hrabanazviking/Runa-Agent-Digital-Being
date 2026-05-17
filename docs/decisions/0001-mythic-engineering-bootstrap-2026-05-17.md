@@ -115,6 +115,30 @@ The following are explicitly deferred to per-slice ADRs:
 - Ratification of provisional True Names (Eldhugi, Heimskringla, Rödd, Auga, Munnr).
 - Reconciliation of the duplicate `Runa-Agent-Digital-Being.md` design drafts.
 
+---
+
+## Addendum — 2026-05-17 (same day)
+
+Two of the deferred items in this ADR have already been resolved by Volmarr and are recorded here so the ADR remains the single load-bearing source for these decisions:
+
+### D-1.6.1 — Provisional True Names ratified
+
+Volmarr ratified all five Skald-given names on 2026-05-17. They are now binding alongside the inherited names. The table in §D-1.6 retains the "provisional" provenance label as a historical record but the "awaits Volmarr ratification" caveat no longer applies. `docs/SYSTEM_VISION.md` §4 carries a dated ratification block to the same effect.
+
+| Name | Status (2026-05-17) | Subsystem |
+|---|---|---|
+| Eldhugi | Ratified | Emotional state engine |
+| Heimskringla | Ratified | Model router |
+| Rödd | Ratified | Voice surface |
+| Auga | Ratified | GUI surface |
+| Munnr | Ratified | CLI surface |
+
+### D-1.6.2 — Duplicate design drafts are not duplicates
+
+The two design documents under `docs/architecture/` — `Runa-Agent-Digital-Being.md` (kebab, 48 KB) and `Runa_Agent_Digital_Being.md` (snake, 65 KB) — are **different documents written by different AI models with intentionally similar names**. They are not duplicates, near-duplicates, or alternate drafts. They are parallel design articulations and must not be reconciled or merged. `ORIGINS.md` §5 has been amended to record this resolution; future sessions should not propose reconciliation.
+
+---
+
 ## References
 
 - `TASK_runa_bootstrap.md` — the resumption anchor for the 12-phase work.
