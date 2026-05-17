@@ -41,8 +41,10 @@
 | `docs/decisions/` | Architecture Decision Records (`NNNN-short-name.md`). Append-only. |
 | `docs/philosophy/` | Heathen + modern-Viking + Mythic worldview source documents. |
 | `docs/methodology/` | Mythic Engineering canonical reference: Codex, Protocols v1.0, Plundering Workflow. |
-| `docs/research/` | **50-document technical research corpus** (added 2026-05-17). Concept syntheses of the most-relevant AI / CS / cognitive-science work, per a seven-section template. Read `INDEX.md` first. See ADR-0003. |
+| `docs/research/` | **50-document AI/CS research corpus** (added 2026-05-17). Concept syntheses of the most-relevant AI / CS / cognitive-science work. Architect's reading. See ADR-0003. |
+| `docs/python/` | **50-document Python craft corpus** (added 2026-05-17). Implementation patterns for robust, self-healing, crash-proof Python software. Forge Worker's reading. See ADR-0004. |
 | `docs/AI_OS_Research/` | Volmarr's parallel research on the 2026 AI-OS market / standards / research landscape. Companion to `docs/research/`. |
+| `docs/RunaUniversity2040/` | Volmarr's lecture series / AI curriculum material. |
 | `docs/archive/` | Retired docs preserved for history. Never deleted; superseded docs go here. |
 
 ## `config/`
