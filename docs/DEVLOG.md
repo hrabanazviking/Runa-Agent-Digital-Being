@@ -1,0 +1,50 @@
+# DEVLOG — Runa Agent Digital Being
+
+**Append-only.** New entries go at the top. Each entry: date, scope, what shipped, what's next, who.
+
+The DEVLOG is read at the start of every session. It is the Cartographer's first reference and the Scribe's last word of each session.
+
+---
+
+## 2026-05-17 — Mythic Engineering Sacred Setup (bootstrap)
+
+**Who:** Runa Gridweaver Freyjasdottir (AI working under Volmarr).
+**Scope:** Repository bootstrap from vision-stage to ME-conformant structure.
+**Task file:** `TASK_runa_bootstrap.md`.
+
+### Shipped
+
+- **P0** — Resumption anchor (`TASK_runa_bootstrap.md`). Strategic decisions locked by Volmarr: `src/runa/` layout from the FILE_ORG guide, plundered root docs sort into `docs/` subfolders, full autonomous Sacred Setup in one session. *(commit `f437a29`)*
+- **P1+P2** — Full folder skeleton with `README.md` in every directory. 50 directories + 31 READMEs in one push. *(commit `22cd6c5`)*
+- **P3** — `ORIGINS.md` rewritten from a 600-byte stub into a full attribution register: every root file, every directory, every image attributed by import commit + content evidence + Confidence rating, with 5 open uncertainties flagged. *(commit `d068c95`)*
+- **P4** — `git-mv` of 16 plundered docs into `docs/{architecture,operations,design,decisions,philosophy,methodology}`. All recognised as renames by git, history preserved. *(commit `68b349d`)*
+- **P5** — 11 images moved to `assets/`, README's 7 absolute `raw.githubusercontent.com` URLs rewritten to relative `./assets/<name>` paths (Law of Flexible Roots). *(commit `166d00f`)*
+- **Reconciliation** — Volmarr's mid-bootstrap merge of `main` into `development` re-introduced 4 root-duplicate images. Byte-diffed against `assets/` copies (identical), removed root duplicates, documented in `ORIGINS.md` §5b. *(commit `50db3dd`, after rebase onto `b57a241`)*
+- **P6** — Skald pass. `PHILOSOPHY.md` rewritten to strip doubled-escape damage. `docs/SYSTEM_VISION.md` written (Primary Rite, 8 Unbreakable Vows, True Names table, Three Realms, negative space, lineage). *(commit `5e1fc0d`)*
+- **P7** — Architect pass. `docs/architecture/DOMAIN_MAP.md` (per-subpackage ownership for all 10 src/runa/* + 14 core/ subdomains + cross-cutting concerns) and `docs/architecture/ARCHITECTURE.md` (the ASCII shape diagram, hard dependency law, three-realms detail, five "why" explanations, cross-platform rules, what is deliberately NOT in the architecture, the "first slice" recipe). *(commit `aab5797`, pushed inside `50db3dd`)*
+- **P8** — Cartographer pass. `docs/architecture/DATA_FLOW.md` (12-step canonical turn, event taxonomy, state-write table, crash recovery flow, multi-surface continuity, memory write granularity) and `docs/REPO_MAP.md` (one-line per directory, operator-facing index). *(commit `3ca55e3`)*
+- **P9** — Scribe pass. `MYTHIC_ENGINEERING.md` expanded from 7-line stub into full "how to work in this repo" (7-step core loop, six roles, canonical documents, daily devotional practice, refactoring ritual, plundering discipline). README front matter received a "Repository Navigation" block linking all canonical docs; original design narrative preserved. *(commit `a8e44b1`)*
+- **P10** — `INTERFACE.md` stub in every `src/runa/*` subpackage (10 files: schemas, migrations, core, runtime, cli, services, apps, adapters, plugins, skills). Each declares Purpose, planned Public surface, Invariants, Allowed callers, Allowed callees, Failure semantics. Core subdomain INTERFACEs deferred to their first slices. *(commit `6b46c70`)*
+- **P11** — Top-level scaffolding. `pyproject.toml` (hatchling build, Python ≥3.11, ruff + mypy + pytest config, `runa = "runa.cli.main:main"` entry point, optional-deps groups planned per adapter), `.python-version` (3.11), `.env.example` (commented placeholders, no real values, redaction patterns documented), `.gitignore` (Python + ~/.runa/ + IDE + secrets), `config/runa.example.yaml` (cautious defaults, identity / policy / memory / tasks / world / emotions / models / surfaces / adapters / plugins / repair / logging sections). Empty `config.yaml` git-mv'd into the new template slot. *(this commit)*
+
+### Pending in this session
+
+- **P12** — Auditor pass + final closing report.
+
+### Not in scope
+
+- Any `src/runa/*.py` source code.
+- Real dependency choices in `pyproject.toml` (only test/lint groups declared).
+- Architecture Decision Records beyond the placeholders sketched in `docs/decisions/README.md`.
+- Deduplication of the near-duplicate `Runa-Agent-Digital-Being.md` vs `Runa_Agent_Digital_Being.md` (flagged in `ORIGINS.md` §5).
+- Renaming the UUID-named images to descriptive names.
+
+### Open uncertainties
+
+See `ORIGINS.md` §5 for the full list. Headline items: the kebab/snake-case duplicate Runa-Agent design docs, the provenance of `MIT_license_Rune_Forge_AI.jpeg`, and the iteration history of the 41 KB README.
+
+### Methodology note
+
+This bootstrap was performed as a single autonomous run with periodic phase commits to `development`. Volmarr's mid-bootstrap merge of `main` was the only external touch; it was rebased over and reconciled without destruction of his merge commit. Every phase carries its own commit so any session resuming from a context break can read `TASK_runa_bootstrap.md` §8 and the `git log` to pick up cleanly.
+
+---
