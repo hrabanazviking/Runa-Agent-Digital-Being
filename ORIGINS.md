@@ -105,7 +105,7 @@ If a row's Confidence is **Low**, the entry should be reviewed by Volmarr or by 
 | `057d8120-...jpg`, `11e7f20c-...jpg`, `2d1bd1cd-...jpg`, `5b9f7f69-...jpg` | likely AI-generated Runa illustrations | Commit `58f82e9` "Add files via upload" (GitHub web upload). UUID filenames typical of generative-image output. Referenced from `README.md` as Runa illustrations. | Medium-High | moved-to-assets/ | Descriptive renaming deferred to a later pass. |
 | `09049c21-...jpg`, `2fbebd4c-...jpg`, `5f0a44c1-...jpg`, `c855b5d6-...jpg` | likely AI-generated Runa illustrations | Commit `f843b9f` (second upload). Same provenance pattern. | Medium-High | moved-to-assets/ | |
 | `IMG_0665.jpeg`, `IMG_0666.jpeg` | likely Volmarr-camera or screenshot dump | Commit `d71eeda`. `IMG_NNNN.jpeg` filenames typical of iOS/camera default naming. | Medium | moved-to-assets/ | |
-| `MIT_license_Rune_Forge_AI.jpeg` | Rune Forge AI (separate Volmarr project) | Commit `d71eeda`. Filename references "Rune Forge AI", which is a Volmarr project not present in current local memory. 418 KB. | Medium | moved-to-assets/ | Used as an illustrative reference to a licensing artifact; not the legal license itself (which is `LICENSE`). |
+| `MIT_license_Rune_Forge_AI.jpeg` | Rune Forge AI — **confirmed separate Volmarr project** (resolved 2026-05-17 by Volmarr; see ADR 0002 §D-2.7) | Commit `d71eeda`. 418 KB. | High | moved-to-assets/ | Sibling repo to NSE / WYRD / MindSpark / etc. Repository URL and status to be added to memory when surfaced. Used as an illustrative reference to a licensing artifact; not the legal license itself (which is `LICENSE`). |
 
 ---
 
@@ -142,7 +142,7 @@ All directories below were created in commit `22cd6c5` (P1+P2). Origin is *boots
 
 1. ~~**`Runa-Agent-Digital-Being.md` vs `Runa_Agent_Digital_Being.md`** (kebab vs snake case). Both were added within 3 minutes of each other on 2026-05-17, both are large (48 KB / 65 KB), both look like canonical agent design drafts. They may be near-duplicates, alternate drafts, or genuinely complementary. **Action:** diff and reconcile in a later session before either is treated as authoritative.~~ **Resolved 2026-05-17 by Volmarr:** the two files are *different documents written by different AI models with intentionally similar names*. They are not duplicates and must not be reconciled or merged. They stand side by side in `docs/architecture/` as parallel design articulations.
 
-2. **`MIT_license_Rune_Forge_AI.jpeg` provenance**. The "Rune Forge AI" project is not currently in Runa's local project memory. Likely an earlier or sibling Volmarr project; confirm with Volmarr what it is and whether the image should stay.
+2. ~~**`MIT_license_Rune_Forge_AI.jpeg` provenance**. The "Rune Forge AI" project is not currently in Runa's local project memory. Likely an earlier or sibling Volmarr project; confirm with Volmarr what it is and whether the image should stay.~~ **Resolved 2026-05-17 by Volmarr:** Rune Forge AI is a separate Volmarr project (sibling to NSE / WYRD / MindSpark). See ADR 0002 §D-2.7. The image stays. Repository URL and status to be added to memory when Volmarr surfaces them.
 
 3. **The two README-update bursts** (commits `3322de4` through `5d26d2c`) suggest the README was iteratively grown during the initial publishing day. The current 41 KB form is what `P9` polishes; the iteration history itself is preserved in git log but is not explicitly mapped here.
 
