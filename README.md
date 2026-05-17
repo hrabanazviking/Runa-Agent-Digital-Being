@@ -1,5 +1,3 @@
----
-
 # Runa Agent Plan
 
 ## Mythic Engineering Build Guide for a Sovereign Python AI Agent
