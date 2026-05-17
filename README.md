@@ -2048,7 +2048,7 @@ That is the forge plan. 🜂
 
 MIT License
 
-Copyright (c) 2026 Volmarr Wyrd and Runa Gridweaver Freyjasdottir
+Copyright (c) 2026 Volmarr Wyrd
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -2067,6 +2067,20 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+## Distribution and Privacy Position
+
+Mythic Vibe CLI is published here as source code and project material.
+
+The author does not require users to provide age, identity, government ID, biometric data, or similar personal information in order to access or use the source code in this repository.
+
+The author may decline to provide official binaries, installers, hosted services, app-store releases, or other official distribution channels where doing so would require age verification, identity verification, or similar personal-data collection.
+
+Any third party who forks, packages, redistributes, deploys, hosts, or otherwise makes this software available does so independently and is solely responsible for compliance with applicable law, platform policy, and distribution requirements in their own jurisdiction and context.
+
+See [LEGAL-NOTICE.md](LEGAL-NOTICE.md) for details.
 
 ---
 
