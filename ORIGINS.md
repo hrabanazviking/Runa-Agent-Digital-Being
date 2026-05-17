@@ -152,6 +152,18 @@ All directories below were created in commit `22cd6c5` (P1+P2). Origin is *boots
 
 ---
 
+## 5b. Reconciliation log
+
+### 2026-05-17 — `b57a241` merge-from-main brought back 4 root images
+
+While the bootstrap was in progress on `development`, Volmarr uploaded 4 images to `main` (commit `811b132`, 2026-05-17 02:24) and then merged `main` into `development` (`b57a241`, 02:49) — bringing the 4 images back to the repository root.
+
+The 4 images (`09049c21-...jpg`, `2fbebd4c-...jpg`, `5f0a44c1-...jpg`, `c855b5d6-...jpg`) were already present at `assets/` from P5 (commit `166d00f`). Byte-diff confirmed the merged-in root copies were identical to the `assets/` copies. The root copies were removed in the following commit (no information lost — `assets/` retains the working copy and `README.md` already references the relative `./assets/<name>` paths after P5's URL rewrite). Volmarr's merge commit itself remains in history.
+
+**Lesson:** if Volmarr touches `main` separately during a bootstrap, a similar merge can re-introduce material that has been re-homed on `development`. The drift-detector planned for `tools/repo/check_origins_drift.py` should flag this case (file present at root that is also present at `assets/`).
+
+---
+
 ## 6. Maintenance rules for this file
 
 - This file is **append-only in spirit**. When new material is imported, add a row. When status changes (a moved doc gets superseded), update the Status column with the date but do not remove the row.
