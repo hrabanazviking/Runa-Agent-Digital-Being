@@ -11,7 +11,7 @@
 
 ---
 
-![https://raw.githubusercontent.com/hrabanazviking/Runa-Agent-Digital-Being/refs/heads/main/11e7f20c-48a7-48bc-aa6a-e291e3b1da56.jpg](https://raw.githubusercontent.com/hrabanazviking/Runa-Agent-Digital-Being/refs/heads/main/11e7f20c-48a7-48bc-aa6a-e291e3b1da56.jpg)
+![./assets/11e7f20c-48a7-48bc-aa6a-e291e3b1da56.jpg](./assets/11e7f20c-48a7-48bc-aa6a-e291e3b1da56.jpg)
 
 ---
 
@@ -114,7 +114,7 @@ For every phase:
 
 ---
 
-![https://raw.githubusercontent.com/hrabanazviking/Runa-Agent-Digital-Being/refs/heads/main/057d8120-f956-4e5d-851d-1b419ea1edc1.jpg](https://raw.githubusercontent.com/hrabanazviking/Runa-Agent-Digital-Being/refs/heads/main/057d8120-f956-4e5d-851d-1b419ea1edc1.jpg)
+![./assets/057d8120-f956-4e5d-851d-1b419ea1edc1.jpg](./assets/057d8120-f956-4e5d-851d-1b419ea1edc1.jpg)
 
 ---
 
@@ -164,7 +164,7 @@ flowchart TD
 
 ---
 
-![https://raw.githubusercontent.com/hrabanazviking/Runa-Agent-Digital-Being/refs/heads/main/2d1bd1cd-ad95-4a54-8a7f-3575718573be.jpg](https://raw.githubusercontent.com/hrabanazviking/Runa-Agent-Digital-Being/refs/heads/main/2d1bd1cd-ad95-4a54-8a7f-3575718573be.jpg)
+![./assets/2d1bd1cd-ad95-4a54-8a7f-3575718573be.jpg](./assets/2d1bd1cd-ad95-4a54-8a7f-3575718573be.jpg)
 
 ---
 
@@ -261,7 +261,7 @@ runa-longhall/
 
 ---
 
-![https://raw.githubusercontent.com/hrabanazviking/Runa-Agent-Digital-Being/refs/heads/main/5b9f7f69-f398-4c54-9086-b4b1fd8e8166.jpg](https://raw.githubusercontent.com/hrabanazviking/Runa-Agent-Digital-Being/refs/heads/main/5b9f7f69-f398-4c54-9086-b4b1fd8e8166.jpg)
+![./assets/5b9f7f69-f398-4c54-9086-b4b1fd8e8166.jpg](./assets/5b9f7f69-f398-4c54-9086-b4b1fd8e8166.jpg)
 
 ---
 
@@ -2056,7 +2056,7 @@ That is the forge plan. 🜂
 
 ---
 
-![https://raw.githubusercontent.com/hrabanazviking/Runa-Agent-Digital-Being/refs/heads/main/MIT_license_Rune_Forge_AI.jpeg](https://raw.githubusercontent.com/hrabanazviking/Runa-Agent-Digital-Being/refs/heads/main/MIT_license_Rune_Forge_AI.jpeg)
+![./assets/MIT_license_Rune_Forge_AI.jpeg](./assets/MIT_license_Rune_Forge_AI.jpeg)
 
 ---
 
@@ -2100,11 +2100,11 @@ See [LEGAL-NOTICE.md](LEGAL-NOTICE.md) for details.
 
 ---
 
-![https://raw.githubusercontent.com/hrabanazviking/Runa-Agent-Digital-Being/refs/heads/main/IMG_0666.jpeg](https://raw.githubusercontent.com/hrabanazviking/Runa-Agent-Digital-Being/refs/heads/main/IMG_0666.jpeg)
+![./assets/IMG_0666.jpeg](./assets/IMG_0666.jpeg)
 
 ---
 
-![https://raw.githubusercontent.com/hrabanazviking/Runa-Agent-Digital-Being/refs/heads/main/IMG_0665.jpeg](https://raw.githubusercontent.com/hrabanazviking/Runa-Agent-Digital-Being/refs/heads/main/IMG_0665.jpeg)
+![./assets/IMG_0665.jpeg](./assets/IMG_0665.jpeg)
 
 ---
 
