@@ -37,6 +37,18 @@ Two of the deferred items in ADR-0001 were resolved by Volmarr immediately after
 
 The remaining seven deferred decisions in ADR-0001 §"What this ADR does not decide" are being asked of Volmarr one at a time, with the answers landing as their own per-slice ADRs when implementation reaches them.
 
+### 2026-05-17 (later still) — ADR 0002 — Initial Subsystem Implementation Decisions
+
+Volmarr answered all seven remaining deferred decisions in a single back-and-forth on the same day as the bootstrap. They are consolidated into `docs/decisions/0002-initial-subsystem-decisions-2026-05-17.md`:
+
+- **D-2.1** VERÐANDI: asyncio kernel + multiprocessing worker pool (hybrid).
+- **D-2.2** Muninn retrieval: `sqlite-vss` in the same SQLite file as Muninn's metadata.
+- **D-2.3** WYRD-bridge transport: auto-detect, local IPC first, Tailnet HTTP fallback.
+- **D-2.4** Heimskringla cache: per-provider cache + shared semantic-dedup layer.
+- **D-2.5** Plugin isolation: all four models implemented (in-process trusted, in-process lightweight, out-of-process subprocess, WASM via wasmtime), operator config selects per plugin.
+- **D-2.6** Image housekeeping: defer renames until each image earns meaning.
+- **D-2.7** Rune Forge AI: confirmed as a separate Volmarr project (sibling to NSE / WYRD / MindSpark / Seidr-Smiðja / HERETIC / MV CLI / VGSK). `ORIGINS.md` §1.2 and §5 amended.
+
 ### Bootstrap complete
 
 All 12 phases shipped. The repository now stands as a clean Mythic Engineering Sacred Setup: vision, philosophy, methodology, architecture, ownership, data flow, attribution, repo map, and a Python package skeleton ready for the first slice.
