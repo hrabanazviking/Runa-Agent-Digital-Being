@@ -49,6 +49,32 @@ Volmarr answered all seven remaining deferred decisions in a single back-and-for
 - **D-2.6** Image housekeeping: defer renames until each image earns meaning.
 - **D-2.7** Rune Forge AI: confirmed as a separate Volmarr project (sibling to NSE / WYRD / MindSpark / Seidr-Smiðja / HERETIC / MV CLI / VGSK). `ORIGINS.md` §1.2 and §5 amended.
 
+### 2026-05-17 (evening) — Research Corpus: 50 technical documents
+
+Following ADR-0001 and ADR-0002, Volmarr requested a 50-document research corpus covering the cutting-edge AI/CS/cognitive-science work most relevant to Runa. Written autonomously in a single session across 11 commits (P0 + B1-B10 + closing) under `docs/research/01-…` through `docs/research/50-…`.
+
+**Eleven categories:**
+- Memory & Knowledge Storage (8 docs) — Muninn-relevant
+- Agent Architectures (6 docs) — Hirð-relevant
+- LLM Techniques (6 docs) — kernel + Heimskringla
+- Event-Driven & Concurrency (4 docs) — VERÐANDI
+- World Modeling (5 docs) — WYRD bridge + core
+- Local & Edge Inference (4 docs) — Heimskringla
+- Voice & Multimodal (3 docs) — Rödd
+- Safety / Sandboxing (4 docs) — policy + plugins
+- Cognitive Architecture & Neuroscience (4 docs) — kernel + identity
+- Self-Improvement & Continual Learning (3 docs) — Eir + Hirð
+- SWE for AI Systems (3 docs) — runtime + Smiðja
+
+Each doc follows a seven-section template: Core idea, Technical depth, Key works, Empirical results, Applicability to Runa, Open questions, References. Real citations to named papers/projects where confidence is high; honest uncertainty markers otherwise; no fabricated references.
+
+**Companion piece:** Volmarr added `docs/AI_OS_Research/AI_OS_RESEARCH_2026.md` (442 lines) mid-batch — a current-2026 market landscape on AI OS as consumer platform / agent runtime / protocol layer / OS-research direction. Cross-references in `docs/research/INDEX.md`.
+
+**Closing artifacts** (this commit):
+- `docs/research/INDEX.md` — all 50 entries updated with their commit hashes
+- `docs/decisions/0003-research-corpus-2026-05-17.md` — formal ADR on the corpus
+- `docs/REPO_MAP.md` — adds `docs/research/` and `docs/AI_OS_Research/` to the top-level map
+
 ### Bootstrap complete
 
 All 12 phases shipped. The repository now stands as a clean Mythic Engineering Sacred Setup: vision, philosophy, methodology, architecture, ownership, data flow, attribution, repo map, and a Python package skeleton ready for the first slice.
