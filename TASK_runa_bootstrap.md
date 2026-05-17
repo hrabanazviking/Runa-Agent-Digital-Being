@@ -153,17 +153,20 @@ runa-agent/                              # repo root
 |---|---|---|---|
 | P0 | Orientation, clarifying Qs, this file | completed | f437a29 |
 | P1 | Cartographer pre-pass — classify every root doc | completed | (folded into P0 §3 inventory) |
-| P2 | Build folder skeleton (FILE_ORG layout) | completed | (this commit) |
-| P3 | Fill ORIGINS.md attribution register | in_progress | — |
-| P4 | git-mv plundered docs into docs/ subfolders | pending | — |
-| P5 | Move images to assets/ + rewrite README refs | pending | — |
-| P6 | Skald — refine PHILOSOPHY + SYSTEM_VISION | pending | — |
-| P7 | Architect — DOMAIN_MAP + ARCHITECTURE | pending | — |
-| P8 | Cartographer — DATA_FLOW + REPO_MAP | pending | — |
-| P9 | Scribe — polish MYTHIC_ENGINEERING + folder READMEs | pending | — |
-| P10 | INTERFACE.md stubs in each src/runa/* | pending | — |
-| P11 | Top-level scaffolding (pyproject, gitignore, env, DEVLOG) | pending | — |
-| P12 | Auditor pass + final push | pending | — |
+| P2 | Build folder skeleton (FILE_ORG layout) | completed | 22cd6c5 |
+| P3 | Fill ORIGINS.md attribution register | completed | d068c95 |
+| P4 | git-mv plundered docs into docs/ subfolders | completed | 68b349d |
+| P5 | Move images to assets/ + rewrite README refs | completed | 166d00f |
+| —  | Reconcile main-merge — remove 4 root-duplicate images (Volmarr's `b57a241` brought them back; bytewise-identical to `assets/` copies; root copies removed) | completed | 50db3dd |
+| P6 | Skald — refine PHILOSOPHY + SYSTEM_VISION | completed | 5e1fc0d |
+| P7 | Architect — DOMAIN_MAP + ARCHITECTURE | completed | 1a97884 (was aab5797 pre-rebase) |
+| P8 | Cartographer — DATA_FLOW + REPO_MAP | completed | 3ca55e3 |
+| P9 | Scribe — polish MYTHIC_ENGINEERING + folder READMEs | completed | a8e44b1 |
+| P10 | INTERFACE.md stubs in each src/runa/* | completed | 6b46c70 |
+| P11 | Top-level scaffolding (pyproject, gitignore, env, DEVLOG, __init__) | completed | 5c6ccdb |
+| P12 | Auditor pass + final closing ADR | completed | (this commit) |
+
+**Bootstrap closed 2026-05-17.** All 12 phases shipped. See `docs/decisions/0001-mythic-engineering-bootstrap-2026-05-17.md` for the formal closing ADR and `docs/DEVLOG.md` for the per-phase record.
 
 ## 9. Next exact action (for any resuming session)
 
