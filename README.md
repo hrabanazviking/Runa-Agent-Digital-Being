@@ -15,6 +15,27 @@
 
 ---
 
+## Repository Navigation
+
+> This README is the original design / planning narrative for Runa. For operator-facing orientation after the 2026-05-17 Mythic Engineering bootstrap, use these documents:
+
+| Document | What it is |
+|---|---|
+| [`docs/SYSTEM_VISION.md`](./docs/SYSTEM_VISION.md) | Skald-written living vision: Primary Rite, Vows, True Names, Realms. The standard the code is measured against. |
+| [`docs/REPO_MAP.md`](./docs/REPO_MAP.md) | One line per directory in the entire repository. Your second stop after this README. |
+| [`docs/architecture/ARCHITECTURE.md`](./docs/architecture/ARCHITECTURE.md) | The shape of Runa as a system, with the canonical ASCII diagram. |
+| [`docs/architecture/DOMAIN_MAP.md`](./docs/architecture/DOMAIN_MAP.md) | Per-subpackage ownership for every `src/runa/*` directory. |
+| [`docs/architecture/DATA_FLOW.md`](./docs/architecture/DATA_FLOW.md) | The canonical turn, the event taxonomy, crash recovery, multi-surface continuity. |
+| [`PHILOSOPHY.md`](./PHILOSOPHY.md) | The compact ethos. Long form under `docs/philosophy/`. |
+| [`MYTHIC_ENGINEERING.md`](./MYTHIC_ENGINEERING.md) | The compact method (seven-step core loop + six roles). Long form under `docs/methodology/`. |
+| [`RULES.AI.md`](./RULES.AI.md) | Standing operational coding laws for human and AI contributors. |
+| [`ORIGINS.md`](./ORIGINS.md) | Attribution register: where every imported file came from. |
+| [`TASK_runa_bootstrap.md`](./TASK_runa_bootstrap.md) | Resumption anchor for the in-flight Mythic Engineering Sacred Setup. |
+
+The rest of this document (below) is Volmarr's original Runa Agent Plan — the design narrative that the bootstrap distils architecture, philosophy, and operational decisions out of. It will continue to evolve.
+
+---
+
 ## 0. Core Vision
 
 Runa is not a chatbot.
