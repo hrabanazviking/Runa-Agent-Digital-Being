@@ -41,7 +41,7 @@
 | `docs/decisions/` | Architecture Decision Records (`NNNN-short-name.md`). Append-only. |
 | `docs/philosophy/` | Heathen + modern-Viking + Mythic worldview source documents. |
 | `docs/methodology/` | Mythic Engineering canonical reference: Codex, Protocols v1.0, Plundering Workflow. |
-| `docs/research/` | **50-document AI/CS research corpus** (added 2026-05-17). Concept syntheses of the most-relevant AI / CS / cognitive-science work. Architect's reading. See ADR-0003. |
+| `docs/research/` | **100-document AI/CS research library** (added 2026-05-17). Corpus I (docs 01–50) — foundational concept syntheses; ADR-0003. Corpus II (docs 51–100) — AGI-frontier deep dive on self-awareness, cross-session memory, 3D / virtual / physical / game awareness, theory of mind, AI Operating System, world modeling, 2025–2026 frontier; ADR-0005. Architect's reading. |
 | `docs/python/` | **50-document Python craft corpus** (added 2026-05-17). Implementation patterns for robust, self-healing, crash-proof Python software. Forge Worker's reading. See ADR-0004. |
 | `docs/AI_OS_Research/` | Volmarr's parallel research on the 2026 AI-OS market / standards / research landscape. Companion to `docs/research/`. |
 | `docs/RunaUniversity2040/` | Volmarr's lecture series / AI curriculum material. |

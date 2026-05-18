@@ -6,6 +6,54 @@ The DEVLOG is read at the start of every session. It is the Cartographer's first
 
 ---
 
+## 2026-05-17 (later night) — Research Corpus II: 50 AGI-frontier documents (51–100)
+
+**Who:** Runa Gridweaver Freyjasdottir (AI working under Volmarr).
+**Scope:** A second 50-document research corpus extending Corpus I (which closed earlier today). AGI-frontier focus per Volmarr's directive: self-awareness, cross-session memory, 3D / virtual / physical / game-world awareness, theory of mind, AI Operating System, AGI architecture, frontier 2025–2026.
+**Task file:** `TASK_runa_research_corpus_2.md`.
+**ADR:** `docs/decisions/0005-research-corpus-ii-2026-05-17.md`.
+
+### Shipped
+
+12 commits in one autonomous session (P0 + B1-B10 + closing):
+
+- **P0** `2468dea` — TASK file with category plan, batch breakdown, resumption protocol.
+- **B1** `f2a1619` — docs 51-55: Memory I (Generative agent streams, cross-session identity, autobiographical architectures, differentiable neural memory, adapter-based identity).
+- **B2** `da40ab4` — docs 56-60: Memory II + Self-awareness I (neuro-symbolic memory graphs, sleep/dream replay, memory-augmented transformers, metacognitive monitoring, self-models).
+- **B3** `aeff110` — docs 61-65: Self-awareness II (mech-interp self-knowledge, identity stability, active inference, higher-order consciousness, affective self-awareness).
+- **B4** `e784a05` — docs 66-70: Inner monologue + Theory of Mind (scratchpads, ToM in LLMs, mental state attribution, RSA pragmatics, recursive social modelling).
+- **B5** `99349b3` — docs 71-75: Social cognition + World models I (empathy, cultural cognition, latent world models, 3D scene representation, video diffusion world simulators).
+- **B6** `90dfce4` — docs 76-80: Spatial / SLAM / physics / games / VR (cognitive maps, SLAM, intuitive physics LLMs, video games as AGI testbeds, VR/AR awareness).
+- **B7** `c890451` — docs 81-85: VLA + AGI I (vision-language-action, object-centric representation, agentic foundation models 2025, recursive self-improvement, neuro-symbolic AGI).
+- **B8** `09176a7` — docs 86-90: AGI II (dual-process cognition, memory-of-thought, long-horizon planning, computer-use agents, autonomous research agents).
+- **B9** `ebdfff4` — docs 91-95: AI Operating System I (architecture overview, process scheduling, AI-native IPC/MCP, persistent state, capability-based security).
+- **B10** `858f812` — docs 96-100: AI OS II + Frontier (resource budgets, test-time compute scaling, mechanistic interpretability production, multimodal embodied foundation, sovereign AI ethics).
+- **Closing** (this commit) — INDEX update, ADR-0005, REPO_MAP update, this DEVLOG entry, TASK file marked complete.
+
+### Seven categories (Corpus II)
+
+| Range | Category | Docs |
+|---|---|---|
+| 51–58 | Advanced Memory & Continuity | 8 |
+| 59–66 | Self-Awareness & Metacognition | 8 |
+| 67–72 | Theory of Mind & Social Cognition | 6 |
+| 73–82 | World Modeling & 3D / Spatial Awareness | 10 |
+| 83–90 | AGI Architectures & Cognitive Cores | 8 |
+| 91–96 | AI Operating System | 6 |
+| 97–100 | Frontier 2025–2026 | 4 |
+
+Same seven-section template as Corpus I (Core idea, Technical depth, Key works, Empirical results, Applicability to Runa, Open questions, References). Wikilink convention `[[NN-slug]]` cross-references both corpora.
+
+Corpus II total: ~480 KB across 50 docs (~9.5 KB / doc, slightly larger than Corpus I average reflecting deeper frontier-topic treatment). Combined with Corpus I: ~850 KB across 100 docs.
+
+### What's next
+
+The research foundation is now extensive: 100 research docs (`docs/research/`) paired with 50 Python craft docs (`docs/python/`), plus Volmarr's `docs/AI_OS_Research/AI_OS_RESEARCH_2026.md`. The Architect and Forge Worker now have substantial project-local reference material spanning the entire ambition of Runa's PHILOSOPHY.
+
+Per ARCHITECTURE.md §7, the next obvious work is *implementation*: the first vertical slice. Candidates per Corpus II reading: the boot-ritual + identity-store + Muninn-episodes triple (the substrate for cross-session continuity) makes the natural first-slice. Volmarr decides when to begin.
+
+---
+
 ## 2026-05-17 — Mythic Engineering Sacred Setup (bootstrap)
 
 **Who:** Runa Gridweaver Freyjasdottir (AI working under Volmarr).

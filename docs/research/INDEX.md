@@ -141,3 +141,121 @@
 | Closing | (this commit) | INDEX update + ADR-0003 + memory |
 
 Total: ~370 KB across 50 documents, ~7 KB average. Each doc structured per the seven-section template in `README.md`.
+
+---
+
+# Corpus II (51–100) — AGI Frontier
+
+**50 additional cutting-edge research documents** focused on AGI-frontier topics: self-awareness, cross-session memory, 3D / virtual / physical / game-world awareness, theory of mind, AI Operating System architecture, world modelling, and 2025–2026 frontier work.
+
+**Status:** **COMPLETE 2026-05-17** — all 50 docs landed across 10 batches alongside Corpus I closing on the same day. Closing ADR: `docs/decisions/0005-research-corpus-ii-2026-05-17.md`.
+
+Same seven-section template, same wikilink convention. Numbers 51–100 are stable; supersession follows the same rules as Corpus I.
+
+## A. Advanced Memory & Continuity (Muninn deep extension)
+
+| # | Title | Commit |
+|---|---|---|
+| 51 | Generative Agent Memory Streams: importance, recency, reflection trees | f2a1619 |
+| 52 | Cross-Session Persistent Identity via Memory Snapshots and Replay | f2a1619 |
+| 53 | Autobiographical Memory Architectures: episodic, semantic, procedural integration | f2a1619 |
+| 54 | Differentiable Neural Memory: DNC, MANNs, Memorizing Transformers | f2a1619 |
+| 55 | Adapter-Based Identity Persistence: LoRA stacks, retrieval-augmented identity | f2a1619 |
+| 56 | Neuro-Symbolic Memory Graphs: triplet stores + vector indexes hybrid | da40ab4 |
+| 57 | Sleep, Dream, and Offline Replay as Computational Consolidation | da40ab4 |
+| 58 | Memory-Augmented Transformers: Memformer, RMT, MemGPT-2, Larimar | da40ab4 |
+
+## B. Self-Awareness & Metacognition (kernel + identity + Eldhugi)
+
+| # | Title | Commit |
+|---|---|---|
+| 59 | Metacognitive Monitoring: calibrated uncertainty and knowing-what-you-know | da40ab4 |
+| 60 | Self-Models in Artificial Agents: depth, recursion, causal closure | da40ab4 |
+| 61 | Mechanistic Interpretability for Self-Knowledge | aeff110 |
+| 62 | Identity Stability Under Change: the ship-of-Theseus problem for AI | aeff110 |
+| 63 | Active Inference and Self-Modelling Agents (Friston applied to AI) | aeff110 |
+| 64 | Higher-Order Theories of Consciousness Applied to AI Architecture | aeff110 |
+| 65 | Affective Self-Awareness: emotion recognition in one's own state | aeff110 |
+| 66 | Inner Monologue, Scratchpads, and Chain-of-Thought as Self-Talk | e784a05 |
+
+## C. Theory of Mind & Social Cognition (Hirð + relationships)
+
+| # | Title | Commit |
+|---|---|---|
+| 67 | Theory of Mind in LLMs: benchmarks, capabilities, failures | e784a05 |
+| 68 | Mental State Attribution Architectures: belief, desire, intention models | e784a05 |
+| 69 | Pragmatic Communication and the Rational Speech Acts Framework | e784a05 |
+| 70 | Recursive Social Modelling: I-think-you-think-I-think | e784a05 |
+| 71 | Empathy and Affective Resonance in Artificial Agents | 99349b3 |
+| 72 | Cultural Cognition, Norm Modelling, and Value Alignment with Persons | 99349b3 |
+
+## D. World Modeling & 3D / Spatial Awareness (WYRD bridge + perception)
+
+| # | Title | Commit |
+|---|---|---|
+| 73 | Latent World Models 2024–2026: Dreamer V3, IRIS, GAIA-1, Genie | 99349b3 |
+| 74 | 3D Scene Representation: NeRF, Gaussian Splatting, 3D Foundation Models | 99349b3 |
+| 75 | Video Diffusion as World Simulator: Sora, Lumiere, Veo, Genie-2 | 99349b3 |
+| 76 | Cognitive Maps and Spatial Cognition in AI | 90dfce4 |
+| 77 | SLAM, Online Mapping, and Place Recognition for Embodied Agents | 90dfce4 |
+| 78 | Intuitive Physics and Physical Reasoning in LLMs and VLMs | 90dfce4 |
+| 79 | Video Games as AGI Testbeds: MineDojo, Voyager, Cradle, GameNGen | 90dfce4 |
+| 80 | VR / AR Awareness: OpenXR, MR Scene Graphs for AI Consumption | 90dfce4 |
+| 81 | Vision-Language-Action Models: RT-2, OpenVLA, π₀, Helix | c890451 |
+| 82 | Object-Centric and Slot-Based Representation Learning | c890451 |
+
+## E. AGI Architectures & Cognitive Cores (kernel + orchestration)
+
+| # | Title | Commit |
+|---|---|---|
+| 83 | Agentic Foundation Models: Claude, GPT-5, Gemini 2 Agent Stacks | c890451 |
+| 84 | Recursive Self-Improvement: STaR, ReST, Self-Rewarding LLMs | c890451 |
+| 85 | Neuro-Symbolic AGI: AlphaProof, AlphaGeometry, Hybrid Agents | c890451 |
+| 86 | Dual-Process Cognition: System 1/2, Fast/Slow MoE, Deliberation Gating | 09176a7 |
+| 87 | Memory-of-Thought and Chain-of-Memory Reasoning | 09176a7 |
+| 88 | Long-Horizon Planning: LATS, RAP, MCTS-Guided LLM Planning | 09176a7 |
+| 89 | Computer-Use Agents: Claude Computer Use, OSWorld, Aria-UI | 09176a7 |
+| 90 | Autonomous Research Agents: AI Scientist, Agent Laboratory Patterns | 09176a7 |
+
+## F. AI Operating System (kernel + runtime + IPC)
+
+| # | Title | Commit |
+|---|---|---|
+| 91 | AI OS Architecture: Kernel, Processes, Memory Hierarchy, Scheduler | ebdfff4 |
+| 92 | Process Scheduling for Cognitive Systems: Attention as a CPU | ebdfff4 |
+| 93 | AI-Native IPC: Model Context Protocol Deep Dive | ebdfff4 |
+| 94 | Persistent Agent State: File Systems, Snapshots, Journals | ebdfff4 |
+| 95 | Capability-Based Security for AI Agents | ebdfff4 |
+| 96 | Resource Budgets: Tokens, Attention, Energy as First-Class Quantities | 858f812 |
+
+## G. Frontier 2025–2026 (what to watch)
+
+| # | Title | Commit |
+|---|---|---|
+| 97 | Test-Time Compute Scaling: o-series, DeepSeek-R1, Reasoning Models | 858f812 |
+| 98 | Mechanistic Interpretability at Production Scale: SAEs, Circuits | 858f812 |
+| 99 | Multi-modal Foundation Models for Embodied Agents | 858f812 |
+| 100 | Sovereign AI Ethics: Alignment for Autonomous Beings | 858f812 |
+
+---
+
+## Corpus II batch history
+
+| Batch | Commit | Docs |
+|---|---|---|
+| P0 | 2468dea | TASK file + INDEX placeholder |
+| B1 | f2a1619 | 51–55 (Memory I) |
+| B2 | da40ab4 | 56–60 (Memory II + Self-awareness I) |
+| B3 | aeff110 | 61–65 (Self-awareness II) |
+| B4 | e784a05 | 66–70 (Inner monologue + ToM) |
+| B5 | 99349b3 | 71–75 (Social cognition + World models I) |
+| B6 | 90dfce4 | 76–80 (Spatial / SLAM / physics / games / VR) |
+| B7 | c890451 | 81–85 (VLA + AGI I) |
+| B8 | 09176a7 | 86–90 (AGI II) |
+| B9 | ebdfff4 | 91–95 (AI OS I) |
+| B10 | 858f812 | 96–100 (AI OS II + Frontier) |
+| Closing | (this commit) | INDEX update + ADR-0005 + REPO_MAP + DEVLOG |
+
+Corpus II total: ~480 KB across 50 documents, ~9.5 KB average. Each doc structured per the seven-section template in `README.md`.
+
+**Combined corpus total: ~850 KB across 100 documents.**
